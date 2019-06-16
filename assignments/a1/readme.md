@@ -3,17 +3,19 @@ Instruction: Please Run **Gradle build** to start the application
 ## ***************************************required features****************************
 
 ### A **menu bar** with a File menu containing the following items:
+
 	- File: All the sub options to save/load and copy the files 
-		- **New**: Create a new canvas and clear all the existed shapes; The board will have
+	
+		- New: Create a new canvas and clear all the existed shapes; The board will have
 			no shapes painted either.
 
 		- Load PNG File: Load from a local .png files.
 			Note: This will disable the modification and the image will be diaplayed on canvas
 
-		- **Save PNG File**: This will save to local disk as a .png fornat
+		- Save PNG File: This will save to local disk as a .png fornat
 			Note: Similarly, this won't allow user to further manipute the contained elements
 
-		- **Load TXT File**:
+		- Load TXT File:
 			Note: This will allow user to save the key parameters to a txt table and user reloaded
 			The project, he/she can continue the painting activities on the same saved canves
 
