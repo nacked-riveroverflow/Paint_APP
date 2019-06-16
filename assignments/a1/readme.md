@@ -2,7 +2,7 @@ Instruction: Please Run $$Gradle build$$ to start the application
 
 ##***************************************required features****************************
 
-###A **menu bar** with a File menu containing the following items:
+### A **menu bar** with a File menu containing the following items:
 	- File: All the sub options to save/load and copy the files 
 		- **New**: Create a new canvas and clear all the existed shapes; The board will have
 			no shapes painted either.
@@ -23,7 +23,7 @@ Instruction: Please Run $$Gradle build$$ to start the application
 
 	- About: My personal signature
 
-###A tool palette on the left-hand side, supporting the following tools:
+### A tool palette on the left-hand side, supporting the following tools:
    - selection tool:
         * When **clicked**, the shape(line, oval, square) will be highlighted
         * When pressed **ESC**, the shape will be diselected
@@ -39,17 +39,17 @@ Instruction: Please Run $$Gradle build$$ to start the application
         * Fill according to what showed up in the current color button
         * **Could be either pre-defined or user customization**
 
-###A colour palette:
+### A colour palette:
     - selected color will be used for any new shape
 
     - A chooser (purple in begining) to let the user define his/her own color and draw
 
-###A line thickness palette:
+### A line thickness palette:
     - Allow the user to slide and define the thinkness
 
     - **Note**: When selecting a filled shape, the thinkness will be reflected to the max(according to Piazza)
 
-##**The following functionality should be supported**:
+## **The following functionality should be supported**:
 
     - Drag and Drop (**CHECKED!!!!**)
 
@@ -60,7 +60,7 @@ Instruction: Please Run $$Gradle build$$ to start the application
     - "test_load.txt" is provided to test load freature 
 
 
-##**Bonus Features**
+## **Bonus Features**
 
     - System-level copy/paste: support pasting the entire canvas an an image (using any supported format) to an outside program (e.g. MS Paint, Photoshop, Pixelmator) (10 marks).
 
