@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d3976b4-6f29-41bd-9334-2256c2880db9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/vecmath.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/A_one$DemoBorderLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/A_one$DemoBorderLayout$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/A_one$DemoBorderLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/A_one$DemoBorderLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/A_one.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/A_one.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/DrawingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/DrawingPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/MenuBar$MenuOptionsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/MenuBar$MenuOptionsHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/MenuBar$PNGFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/MenuBar$PNGFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/MenuBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/classes/java/main/MenuBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/DrawingPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/002-pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/12.layout.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/A_one$DemoBorderLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/A_one$DemoBorderLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/A_one.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ColorButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ColorButton$MouseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ColorButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ColorPalette$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ColorPalette.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/CopyImagetoClipBoard$TransferableImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/CopyImagetoClipBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoBorderLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoBoxLayout1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoBoxLayout2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoBoxLayout3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoFlowLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoGridBagLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoGridLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoNullLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoRandomLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DemoSpringLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/DrawingPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/LayoutDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/LayoutDemoFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/MenuBar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/MenuBar$MenuOptionsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/MenuBar$PNGFileFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/MenuBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/My_shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/RandomLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/StatusbarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ThicknessPanel$SliderListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ThicknessPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/Tool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ToolButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ToolPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/ToolPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/UI_Task2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/computer-mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/002-pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/computer-mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/line-tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/oval.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/paint-brush-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/paint-brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/paint-bucket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/images/rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/line-tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/002-pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/computer-mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/line-tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/oval.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/paint-brush-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/paint-brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/paint-bucket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/main/resources/rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/oval.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/paint-brush-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/paint-brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/paint-bucket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/polygon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UI_Task2/rectangle.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A_one.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DrawingPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="516" column="37" selection-start-line="516" selection-start-column="37" selection-end-line="516" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DrawingPanel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="6" />
+    <option name="y" value="23" />
+    <option name="width" value="1263" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d3976b4-6f29-41bd-9334-2256c2880db9" name="Default Changelist" comment="" />
+      <created>1560635276070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560635276070</updated>
+      <workItem from="1560635277521" duration="283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="283000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="6" y="23" width="1263" height="689" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979524" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998326" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/A_one.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="516" column="37" selection-start-line="516" selection-start-column="37" selection-end-line="516" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>vecmath</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
