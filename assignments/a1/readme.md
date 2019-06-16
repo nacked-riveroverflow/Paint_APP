@@ -1,6 +1,6 @@
 Instruction: Please Run $$Gradle build$$ to start the application
 
-##***************************************required features****************************
+## ***************************************required features****************************
 
 ### A **menu bar** with a File menu containing the following items:
 	- File: All the sub options to save/load and copy the files 
@@ -25,19 +25,20 @@ Instruction: Please Run $$Gradle build$$ to start the application
 
 ### A tool palette on the left-hand side, supporting the following tools:
    - selection tool:
-        * When **clicked**, the shape(line, oval, square) will be highlighted
-        * When pressed **ESC**, the shape will be diselected
-        * The **color will be reflected** in the current color panel
-        * The **thinkness** will be refleced in the slider
-        * User is able to **drag and move**.
+   
+        - When **clicked**, the shape(line, oval, square) will be highlighted
+        - When pressed **ESC**, the shape will be diselected
+        - The **color will be reflected** in the current color panel
+        - The **thinkness** will be refleced in the slider
+        - User is able to **drag and move**.
 
    - erase: Click and remove
 
    - drawing tool: draw line, circle, square
 
    - Fill:
-        * Fill according to what showed up in the current color button
-        * **Could be either pre-defined or user customization**
+        - Fill according to what showed up in the current color button
+        - **Could be either pre-defined or user customization**
 
 ### A colour palette:
     - selected color will be used for any new shape
