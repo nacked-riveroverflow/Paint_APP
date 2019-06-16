@@ -1,4 +1,4 @@
-Instruction: Please Run $$Gradle build$$ to start the application
+Instruction: Please Run **Gradle build** to start the application
 
 ## ***************************************required features****************************
 
