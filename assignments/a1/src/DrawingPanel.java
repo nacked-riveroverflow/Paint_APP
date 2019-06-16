@@ -124,6 +124,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
                 graphics2D.fillRect(positionX, positionY, weight, height);
                 My_shape line = new My_shape();
                 line.color = brushColor;
+                line.thinkness = draw_thick;
                 line.minX = positionX;
                 line.minY = positionY;
                 line.maxX = positionX + weight;
@@ -146,6 +147,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
             }else{
                 graphics2D.setColor(getBackground());
             }
+
             if(!isfill) {
                 graphics2D.setStroke(new BasicStroke(draw_thick, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
                 graphics2D.fillOval(positionX, positionY, weight, height);
@@ -171,7 +173,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
             return;
         }
         if (currentTool.toolType == 2){
-            graphics2D.setColor(getBackground());
+            //graphics2D.setColor(getBackground());
             /*
             ...
              */
@@ -180,14 +182,10 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
 
     private Color getCurrentColor()
     {
-        if (currentTool.toolType != 2)
-        {
+
             return brushColor;
-        }
-        else
-        {
-            return getBackground();
-        }
+
+
     }
 
 
@@ -484,33 +482,34 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
                         if(sp.isfilled){
                             isfill = true;
                         }
-                        int prev_think = currentTool.thickness;
-                        currentTool.thickness = sp.thinkness;
-                        drawGraphics(dragGraphics, currentTool, sp.minX, sp.minY, sp.maxX, sp.maxY);
-                        currentTool.thickness = prev_think;
+//                        int prev_think = currentTool.thickness;
+//                        currentTool.thickness = sp.thinkness;
+//                        drawGraphics(dragGraphics, currentTool, sp.minX, sp.minY, sp.maxX, sp.maxY);
+//                        currentTool.thickness = prev_think;
                         currentTool.toolType = 2;
-                        brushColor = Color.black;
+//                        brushColor = Color.black;
                         isremoving = false;
                         isfill = false;
                         removeshape(sp);
-                        //repaintall();
+                        repaintall();
                     }
                 } else if (sp.Tooltype == 4 || sp.Tooltype == 5){
                     if((mouseX - sp.minX)*(mouseX - sp.maxX) <= 0 && (mouseY - sp.minY)*(mouseY - sp.maxY) <= 0){
                         currentTool.toolType = sp.Tooltype;
                         isremoving = true;
-                        if(!selected) {
-                            drawGraphics(dragGraphics, currentTool, sp.minX, sp.minY,
-                                    sp.maxX, sp.maxY);
-                        } else {
-                            drawGraphics(dragGraphics, currentTool, sp.minX - 5, sp.minY -5,
-                                    sp.maxX+5, sp.maxY+5 );
+                        if(selected && focused_shape == sp){
+//                            drawGraphics(dragGraphics, currentTool, sp.minX - 5, sp.minY -5,
+//                                    sp.maxX+5, sp.maxY+5 );
+                            selected = false;
+                            focused_shape = null;
                         }
-                        currentTool.toolType = 2;
-                        brushColor = Color.black;
-                        isfill = false;
-                        isremoving = false;
-                        removeshape(sp);
+                            currentTool.toolType = 2;
+                            brushColor = A_one.DemoBorderLayout.colorPalette.selectedColorDisplay.getBackground();
+                            isfill = false;
+                            isremoving = false;
+                            removeshape(sp);
+                            repaintall();
+
                     }
                 }
                 repaint();
@@ -603,10 +602,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
 
         }
 
-        if (currentTool.toolType == 2) {
-            drawGraphics(dragGraphics, ToolButton.createTool(3), prevX, prevY, mouseX, mouseY);
-            repaintRectangle(prevX, prevY, mouseX, mouseY);
-        } else if (currentTool.toolType == 1) {
+        if (currentTool.toolType == 1) {
             drawGraphics(dragGraphics, ToolButton.createTool(1), prevX, prevY, mouseX, mouseY);
             repaintRectangle(prevX, prevY, mouseX, mouseY);
         } else {
