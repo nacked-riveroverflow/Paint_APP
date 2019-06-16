@@ -173,7 +173,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
             return;
         }
         if (currentTool.toolType == 2){
-            graphics2D.setColor(getBackground());
+            //graphics2D.setColor(getBackground());
             /*
             ...
              */
@@ -182,14 +182,10 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
 
     private Color getCurrentColor()
     {
-        if (currentTool.toolType != 2)
-        {
+
             return brushColor;
-        }
-        else
-        {
-            return getBackground();
-        }
+
+
     }
 
 
@@ -508,7 +504,7 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
                             focused_shape = null;
                         }
                             currentTool.toolType = 2;
-                            //brushColor = Color.black;
+                            brushColor = A_one.DemoBorderLayout.colorPalette.selectedColorDisplay.getBackground();
                             isfill = false;
                             isremoving = false;
                             removeshape(sp);
